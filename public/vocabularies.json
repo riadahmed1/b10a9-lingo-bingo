@@ -1,0 +1,112 @@
+[
+  {
+    "id": "word-1",
+    "word": "Hallo",
+    "pronunciation": "ha-lo",
+    "meaning": "hello",
+    "part_of_speech": "greeting",
+    "difficulty": "easy",
+    "lesson_no": 1,
+    "when_to_say": "Used as a common greeting in both formal and informal settings.",
+    "example": "Hallo! Wie geht es dir? (Hello! How are you?)"
+  },
+  {
+    "id": "word-2",
+    "word": "Danke",
+    "pronunciation": "dan-ke",
+    "meaning": "thank you",
+    "part_of_speech": "expression",
+    "difficulty": "easy",
+    "lesson_no": 2,
+    "when_to_say": "Used to express gratitude.",
+    "example": "Danke für das Geschenk! (Thank you for the gift!)"
+  },
+  {
+    "id": "word-3",
+    "word": "Bitte",
+    "pronunciation": "bi-te",
+    "meaning": "please / you're welcome",
+    "part_of_speech": "expression",
+    "difficulty": "easy",
+    "lesson_no": 3,
+    "when_to_say": "Used when making a request or responding to thank you.",
+    "example": "Eine Pizza, bitte. (A pizza, please.)"
+  },
+  {
+    "id": "word-4",
+    "word": "Ja",
+    "pronunciation": "yah",
+    "meaning": "yes",
+    "part_of_speech": "adverb",
+    "difficulty": "easy",
+    "lesson_no": 4,
+    "when_to_say": "Used for affirmation or agreement.",
+    "example": "Ja, ich komme aus Deutschland. (Yes, I am from Germany.)"
+  },
+  {
+    "id": "word-5",
+    "word": "Nein",
+    "pronunciation": "nine",
+    "meaning": "no",
+    "part_of_speech": "adverb",
+    "difficulty": "easy",
+    "lesson_no": 5,
+    "when_to_say": "Used to negate a statement or say no.",
+    "example": "Nein, danke. (No, thank you.)"
+  },
+  {
+    "id": "word-6",
+    "word": "Tschüss",
+    "pronunciation": "chooss",
+    "meaning": "bye",
+    "part_of_speech": "greeting",
+    "difficulty": "easy",
+    "lesson_no": 6,
+    "when_to_say": "Informal way to say goodbye to friends or family.",
+    "example": "Tschüss, bis morgen! (Bye, see you tomorrow!)"
+  },
+  {
+    "id": "word-7",
+    "word": "Entschuldigung",
+    "pronunciation": "ent-shool-dee-goong",
+    "meaning": "excuse me / sorry",
+    "part_of_speech": "expression",
+    "difficulty": "medium",
+    "lesson_no": 7,
+    "when_to_say": "Used to get someone's attention or apologize for a small mistake.",
+    "example": "Entschuldigung, wo ist der Bahnhof? (Excuse me, where is the train station?)"
+  },
+  {
+    "id": "word-8",
+    "word": "Guten Morgen",
+    "pronunciation": "goo-ten mor-gen",
+    "meaning": "good morning",
+    "part_of_speech": "greeting",
+    "difficulty": "easy",
+    "lesson_no": 8,
+    "when_to_say": "Used to greet people in the morning.",
+    "example": "Guten Morgen, wie hast du geschlafen? (Good morning, how did you sleep?)"
+  },
+  {
+    "id": "word-9",
+    "word": "Essen",
+    "pronunciation": "es-en",
+    "meaning": "to eat",
+    "part_of_speech": "verb",
+    "difficulty": "easy",
+    "lesson_no": 9,
+    "when_to_say": "Used when talking about consuming food.",
+    "example": "Ich möchte Brot essen. (I want to eat bread.)"
+  },
+  {
+    "id": "word-10",
+    "word": "Wasser",
+    "pronunciation": "va-ser",
+    "meaning": "water",
+    "part_of_speech": "noun",
+    "difficulty": "easy",
+    "lesson_no": 10,
+    "when_to_say": "Used when asking for or referring to water.",
+    "example": "Ein Glas Wasser, bitte. (A glass of water, please.)"
+  }
+]
