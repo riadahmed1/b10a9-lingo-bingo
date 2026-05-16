@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Vocabulary = ({vocabulary}) => {
   const {id, word, meaning, pronunciation} = vocabulary;
-  console.log(vocabulary);
+  // console.log(vocabulary);
   return (
     <div className='card p-4 bg-gray-200 text-center'>
         <h2 className='text-3xl text-green-600 font-bold text-center'>{word}</h2>

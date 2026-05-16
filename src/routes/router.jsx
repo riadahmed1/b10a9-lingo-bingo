@@ -7,6 +7,10 @@ import Tutorials from "../layout/Tutorials";
 import StartLearning from "../layout/StartLearning";
 import AboutUs from "../layout/AboutUs";
 import LessonDetails from "../layout/LessonDetails";
+import AuthLayout from "../layout/AuthLayout";
+import Login from "../pages/Login";
+import Register from "../pages/Register";
+import PrivateRoute from "./PrivateRoute";
 
 const router = createBrowserRouter([
   {
@@ -15,8 +19,8 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
-        path: '/',
-        element: <Home></Home>
+        path: "/",
+        element: <Home></Home>,
       },
       {
         path: "start-learning",
@@ -24,20 +28,34 @@ const router = createBrowserRouter([
       },
       {
         path: "lesson/:id",
-        element: <LessonDetails></LessonDetails>,
-        loader: () => fetch('/vocabularies.json')
+        element: (
+          <PrivateRoute>
+            <LessonDetails></LessonDetails>
+          </PrivateRoute>
+        ),
+        loader: () => fetch("/vocabularies.json"),
       },
       {
         path: "tutorials",
-        element: <Tutorials></Tutorials>
+        element: <Tutorials></Tutorials>,
       },
       {
         path: "About-Us",
-        element: <AboutUs></AboutUs>
+        element: <AboutUs></AboutUs>,
       },
       {
         path: "auth",
-        element: <h1>Auth</h1>,
+        element: <AuthLayout></AuthLayout>,
+        children: [
+          {
+            path: "/auth/login",
+            element: <Login></Login>,
+          },
+          {
+            path: "/auth/register",
+            element: <Register></Register>,
+          },
+        ],
       },
       {
         path: "*",
