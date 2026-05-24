@@ -89,14 +89,21 @@ const Nav = () => {
         {user && user?.email ? (
           <div className="flex flex-col md:flex-row items-center gap-2">
             <img
-              className="w-10 h-10 rounded-full object-cover border border-green-500"
-              src={user?.photoURL || "https://cdn-icons-png.flaticon.com/512/9131/9131529.png"}
+              className="w-10 h-10 rounded-full object-cover border"
+              src={
+                user?.photoURL ||
+                "https://cdn-icons-png.flaticon.com/512/9131/9131529.png"
+              }
               alt=""
             />{" "}
             <p>{user.displayName}</p>
           </div>
         ) : (
-          <img className="w-10 h-10 rounded-full object-cover border border-green-500" src="https://cdn-icons-png.flaticon.com/512/9131/9131529.png" alt="pp" />
+          <img
+            className="w-10 h-10 rounded-full object-cover border"
+            src={user?.photoURL || "https://cdn-icons-png.flaticon.com/512/9131/9131529.png"}
+            alt="user"
+          />
         )}
         {user && user?.email ? (
           <button

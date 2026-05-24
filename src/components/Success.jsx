@@ -1,5 +1,5 @@
 import React from 'react';
-import CountUp from 'react-countup';
+import { CountUp } from 'react-countup';
 
 const Success = () => {
   const stats = [
@@ -17,13 +17,9 @@ const Success = () => {
           {
             stats.map((stat) => (
               <div key={stat.id} className='p-4 rounded-xl shadow-sm border border-gray-300 flex flex-col items-center justify-center transition-transform hover:scale-105'>
-                <div>
-                  {/* <CountUp
-                    start={0}
-                    end={stat.count}
-                    duration={3}
-                  /> */}
-                  {/* <span>{stat.suffix}</span> */}
+                <div className='flex mb-2'>
+                  <h1 className='text-4xl'>{stat.count}</h1>
+                  <h1 className='text-4xl'>{stat.suffix}</h1>
                 </div>
                 <p className='text-green-500 font-medium text-lg md:text-xl text-center'>{stat.title}</p>
               </div>
